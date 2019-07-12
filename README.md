@@ -14,9 +14,9 @@ Hive launched within `docker-compose.yaml` (`cloudera` docker container).
 
 ## Workflow
  1. Spark driver program
-   1.1. read all CSV files in s3a://ayegorov/datasets/Top_1_000_Songs_To_Hear_Before_You_Die/
-   1.2. process data (parse, validate, clean and transform)
-   1.3. save processed data to s3a://ayegorov/data/Top_1_000_Songs_To_Hear_Before_You_Die/
+   <br>1.1. read all CSV files in s3a://ayegorov/datasets/Top_1_000_Songs_To_Hear_Before_You_Die/
+   <br>1.2. process data (parse, validate, clean and transform)
+   <br>1.3. save processed data to s3a://ayegorov/data/Top_1_000_Songs_To_Hear_Before_You_Die/
  2. Add new 'batch_id' partition to Hive
  3. Count top songs per year before year 2000 in Hive
 

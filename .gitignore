@@ -1,0 +1,6 @@
+.idea/
+target/
+minio/data
+!minio/data/ayegorov/datasets
+metastore_db/
+derby.log
